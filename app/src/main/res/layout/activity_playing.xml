@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#000"
+    android:layout_height="match_parent"
+    tools:context=".Playing">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10sp"
+                android:orientation="horizontal">
+
+                <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/profile_image"
+                    android:layout_width="56sp"
+                    android:layout_height="56sp"
+                    android:layout_marginStart="5sp"
+                    android:src="@mipmap/ic_launcher"
+                    app:civ_border_color="#Fff"
+                    app:civ_border_width="1sp" />
+
+                <TextView
+                    android:id="@+id/profile_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15sp"
+                    android:layout_marginTop="14sp"
+                    android:text="User"
+                    android:textColor="#fff"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <ProgressBar
+                android:id="@+id/progressBar"
+                style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:max="5"
+                android:outlineAmbientShadowColor="#00ff00"
+                android:outlineSpotShadowColor="#00ff00" />
+
+            <TextView
+                android:id="@+id/question_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="6sp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="6sp"
+                android:layout_marginBottom="5sp"
+                android:text="Question"
+                android:textAlignment="textStart"
+                android:textColor="#fff"
+                android:textSize="18sp" />
+
+
+            <LinearLayout
+                android:id="@+id/layoutSingle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25sp"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+
+                <RadioGroup
+                    android:id="@+id/radiogroup"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+                    <android.support.v7.widget.AppCompatRadioButton
+                        android:id="@+id/btnAnswerA"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="9dp"
+                        android:layout_marginEnd="9dp"
+                        android:background="@drawable/border"
+                        android:checked="false"
+                        android:padding="20dp"
+                        android:text=""
+                        android:textColor="#fff"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:theme="@style/RadioButton" />
+
+
+                    <android.support.v7.widget.AppCompatRadioButton
+                        android:id="@+id/btnAnswerB"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="9dp"
+                        android:layout_marginEnd="9dp"
+                        android:background="@drawable/border"
+                        android:checked="false"
+                        android:padding="20dp"
+                        android:text=""
+                        android:textColor="#fff"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:theme="@style/RadioButton" />
+
+
+                    <android.support.v7.widget.AppCompatRadioButton
+                        android:id="@+id/btnAnswerC"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="9dp"
+                        android:layout_marginEnd="9dp"
+                        android:background="@drawable/border"
+                        android:checked="false"
+                        android:padding="20dp"
+                        android:text=""
+                        android:textColor="#fff"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:theme="@style/RadioButton" />
+
+
+                    <android.support.v7.widget.AppCompatRadioButton
+                        android:id="@+id/btnAnswerD"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="9dp"
+                        android:layout_marginEnd="9dp"
+                        android:background="@drawable/border"
+                        android:checked="false"
+                        android:padding="20dp"
+                        android:text=""
+                        android:textColor="#fff"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:theme="@style/RadioButton" />
+
+
+                </RadioGroup>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/layout5050"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25sp"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+
+                <RadioGroup
+                    android:id="@+id/radiogroup5050"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+                    <android.support.v7.widget.AppCompatRadioButton
+                        android:id="@+id/btnAnswerA5050"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="9dp"
+                        android:layout_marginEnd="9dp"
+                        android:background="@drawable/border"
+                        android:checked="false"
+                        android:padding="20dp"
+                        android:text=""
+                        android:textColor="#fff"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:theme="@style/RadioButton" />
+
+
+                    <android.support.v7.widget.AppCompatRadioButton
+                        android:id="@+id/btnAnswerB5050"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="9dp"
+                        android:layout_marginEnd="9dp"
+                        android:background="@drawable/border"
+                        android:checked="false"
+                        android:padding="20dp"
+                        android:text=""
+                        android:textColor="#fff"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:theme="@style/RadioButton" />
+
+
+
+
+                </RadioGroup>
+            </LinearLayout>
+
+
+
+
+
+
+            <LinearLayout
+                android:id="@+id/layoutEmoji"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+
+                <com.ritik.emojireactionlibrary.EmojiReactionView
+                    android:id="@+id/image"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:emojis_rising_speed="5sp"
+                    app:home_side="75sp"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@color/colorPrimaryDark"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/image"
+                    app:emojis="@array/emoji"
+                    app:emojis_rising_number="75"
+                    app:home_Center_X="38sp"
+                    app:home_Center_Y="125sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layoutEmoji1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <View
+                    android:id="@+id/views"
+                    android:layout_width="match_parent"
+                    android:layout_height="130sp"/>
+
+
+
+                <com.bernaferrari.emojislider.EmojiSlider
+                    android:id="@+id/sliderv1"
+                    style="@style/sliderStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    app:allow_reselection="true"
+                    app:average_progress="0.50"
+                    app:bar_progress_color_end="#D4145A"
+                    app:bar_progress_color_start="#FBB03B"
+                    app:emoji="😍"
+                    app:progress_value="0.0"
+                    app:register_touches_outside_thumb="true" />
+
+
+
+
+                <com.bernaferrari.emojislider.EmojiSlider
+                    android:id="@+id/sliderv2"
+                    style="@style/sliderStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    app:allow_reselection="true"
+                    app:average_progress="0.50"
+                    app:bar_progress_color_end="#D4145A"
+                    app:bar_progress_color_start="#FBB03B"
+                    app:emoji="😲"
+                    app:progress_value="0.0"
+                    app:register_touches_outside_thumb="true" />
+
+
+                <com.bernaferrari.emojislider.EmojiSlider
+                    android:id="@+id/sliderv3"
+                    style="@style/sliderStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    app:allow_reselection="true"
+                    app:average_progress="0.50"
+                    app:bar_progress_color_end="#D4145A"
+                    app:bar_progress_color_start="#FBB03B"
+                    app:emoji="😥"
+                    app:progress_value="0.0"
+                    app:register_touches_outside_thumb="true" />
+
+
+
+
+                <com.bernaferrari.emojislider.EmojiSlider
+                    android:id="@+id/sliderv4"
+                    style="@style/sliderStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    app:allow_reselection="true"
+                    app:average_progress="0.50"
+                    app:bar_progress_color_end="#D4145A"
+                    app:bar_progress_color_start="#FBB03B"
+                    app:emoji="👏"
+                    app:progress_value="0.0"
+                    app:register_touches_outside_thumb="true" />
+
+
+
+            </LinearLayout>
+
+
+
+
+
+
+            <LinearLayout
+                android:id="@+id/layoutMultiple"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="6sp"
+                    android:layout_marginEnd="4sp"
+                    android:layout_marginBottom="20sp"
+                    android:text="Select all that apply"
+                    android:textColor="#8fff00"
+                    android:textSize="16sp" />
+
+
+                <android.support.v7.widget.AppCompatCheckBox
+                    android:id="@+id/checkA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginStart="9dp"
+                    android:layout_marginEnd="9dp"
+                    android:background="@drawable/border"
+                    android:checked="false"
+                    android:padding="20dp"
+                    android:text=""
+                    android:textColor="#fff"
+                    android:textSize="20sp"
+                    android:textStyle="bold|italic"
+                    android:theme="@style/RadioButton" />
+
+                <android.support.v7.widget.AppCompatCheckBox
+                    android:id="@+id/checkB"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginStart="9dp"
+                    android:layout_marginEnd="9dp"
+                    android:background="@drawable/border"
+                    android:checked="false"
+                    android:padding="20dp"
+                    android:text=""
+                    android:textColor="#fff"
+                    android:textSize="20sp"
+                    android:textStyle="bold|italic"
+                    android:theme="@style/RadioButton" />
+
+                <android.support.v7.widget.AppCompatCheckBox
+                    android:id="@+id/checkC"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginStart="9dp"
+                    android:layout_marginEnd="9dp"
+                    android:background="@drawable/border"
+                    android:checked="false"
+                    android:padding="20dp"
+                    android:text=""
+                    android:textColor="#fff"
+                    android:textSize="20sp"
+                    android:textStyle="bold|italic"
+                    android:theme="@style/RadioButton" />
+
+                <android.support.v7.widget.AppCompatCheckBox
+                    android:id="@+id/checkD"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginStart="9dp"
+                    android:layout_marginEnd="9dp"
+                    android:background="@drawable/border"
+                    android:checked="false"
+                    android:padding="20dp"
+                    android:text=""
+                    android:textColor="#fff"
+                    android:textSize="20sp"
+                    android:textStyle="bold|italic"
+                    android:theme="@style/RadioButton" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layoutText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+
+                <EditText
+                    android:id="@+id/editText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="4sp"
+                    android:layout_marginEnd="4sp"
+                    android:hint="Your Answer"
+                    android:minHeight="200dp"
+                    android:text=""
+                    android:textColor="#fff"
+                    android:textColorHint="#8fff00"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1sp"
+                android:layout_marginStart="4sp"
+                android:layout_marginTop="25sp"
+                android:layout_marginEnd="4sp"
+                android:layout_marginBottom="25sp"
+                android:background="#fff"
+                android:orientation="vertical">
+
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/nextBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:background="#3fe022"
+                android:padding="12dp"
+                android:text="Next"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</LinearLayout>

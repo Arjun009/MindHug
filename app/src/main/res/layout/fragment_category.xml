@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CategoryFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginBottom="10sp"
+        android:layout_height="wrap_content">
+
+        <ProgressBar
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:outlineAmbientShadowColor="#00ff00"
+            android:outlineSpotShadowColor="#00ff00"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginTop="20sp"
+            android:layout_marginBottom="10sp"
+            android:visibility="gone"
+            android:theme="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:indeterminate="true"
+            android:indeterminateTintMode="src_atop"
+            android:indeterminateTint="@android:color/holo_green_dark"
+
+            android:id="@+id/pb"/>
+
+    </LinearLayout>
+
+
+
+    <view class="android.support.v7.widget.RecyclerView"
+        android:layout_width="match_parent"
+        android:id="@+id/listCategory"
+        android:layout_height="match_parent">
+
+    </view>
+
+</FrameLayout>

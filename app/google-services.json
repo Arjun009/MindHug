@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "298153341379",
+    "firebase_url": "https://feedback-70acf.firebaseio.com",
+    "project_id": "feedback-70acf",
+    "storage_bucket": "feedback-70acf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:298153341379:android:dd5da8df0a030d45",
+        "android_client_info": {
+          "package_name": "com.arjun.survey"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "298153341379-pvnuab08ugt59h7ap8cgun2i6sgu3smr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.arjun.survey",
+            "certificate_hash": "3528a1fa98c46bba4aed734d2bb3f85c70731879"
+          }
+        },
+        {
+          "client_id": "298153341379-vurhk8b5mtfv26d7tshduibhm223g6ia.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.arjun.survey",
+            "certificate_hash": "fc560e2e8bec8039753eecbf9ebfcb01ae6a0781"
+          }
+        },
+        {
+          "client_id": "298153341379-p2omdmha0gberdmscr7i8t0ese9o4db5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDiSn0MjocO8y1pumGHjU6ClUBir0LVms8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "298153341379-p2omdmha0gberdmscr7i8t0ese9o4db5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

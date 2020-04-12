@@ -1,0 +1,342 @@
+{
+  "Category" : {
+    "01" : {
+      "Image" : "https://blog.vantagecircle.com/content/images/size/w730/2019/05/employee-feedback.png",
+      "Name" : "Personal Feedback",
+      "Ques" : "6"
+    },
+    "02" : {
+      "Image" : "https://www.joniniemela.com/wp-content/uploads/nightsky.jpg",
+      "Name" : "Mobile Phones",
+      "Ques" : "4"
+    },
+    "03" : {
+      "Image" : "https://d1qp59yxlq7zhd.cloudfront.net/media/hindi-web-series-banner.jpg",
+      "Name" : "Web Series",
+      "Ques" : "3"
+    },
+    "04" : {
+      "Image" : "https://resize.indiatvnews.com/en/resize/newbucket/715_-/2019/09/chandrayaan-india-lunar-lander-1200x630-1567773381.jpg",
+      "Name" : "Isro Moon Mission",
+      "Ques" : "3"
+    },
+    "05" : {
+      "Image" : "https://money.mobikwik.com/resources/wp-content/uploads/2018/02/direct-vs-regular.jpg",
+      "Name" : "Regularity",
+      "Ques" : "4"
+    }
+  },
+  "Questions" : {
+    "01" : {
+      "AnswerA" : "19 or Younger",
+      "AnswerB" : "20-35",
+      "AnswerC" : "36-59",
+      "AnswerD" : "60 or over",
+      "CategoryId" : "01",
+      "Question" : "What is your age interval?",
+      "Type" : "scq"
+    },
+    "02" : {
+      "AnswerA" : "A+",
+      "AnswerB" : "A-B+",
+      "AnswerC" : "B-C+",
+      "AnswerD" : "C or lower",
+      "CategoryId" : "01",
+      "Question" : "What is the experience with your institution?",
+      "Type" : "emoji"
+    },
+    "03" : {
+      "AnswerA" : "Male",
+      "AnswerB" : "Female",
+      "AnswerC" : "Others",
+      "AnswerD" : "Prefer not to say",
+      "CategoryId" : "01",
+      "Question" : "What is your gender?",
+      "Type" : "5050"
+    },
+    "04" : {
+      "AnswerA" : "Teacher",
+      "AnswerB" : "Parents",
+      "AnswerC" : "Counselor",
+      "AnswerD" : "Friends",
+      "CategoryId" : "01",
+      "Question" : "Besides yourself, who has helped you most to make plans for the future?",
+      "Type" : "mcq"
+    },
+    "05" : {
+      "AnswerA" : "",
+      "AnswerB" : "",
+      "AnswerC" : "",
+      "AnswerD" : "",
+      "CategoryId" : "01",
+      "Question" : "Decribe how confident do you feel that your plans for after graduation will help you reach your ultimate career goals?",
+      "Type" : "text"
+    },
+    "06" : {
+      "AnswerA" : "I am enthusistic about it",
+      "AnswerB" : "I like it",
+      "AnswerC" : "I am more or less neutral about it",
+      "AnswerD" : "I don't like it",
+      "CategoryId" : "01",
+      "Question" : "what is your reaction with college events and activities?",
+      "Type" : "love"
+    },
+    "07" : {
+      "AnswerA" : "Very Often",
+      "AnswerB" : "Often",
+      "AnswerC" : "Occasionally",
+      "AnswerD" : "Never",
+      "CategoryId" : "05",
+      "Question" : "How often you discuss about your term paper or other class project with a faculty member?",
+      "Type" : "scq"
+    },
+    "08" : {
+      "AnswerA" : "Class discussion",
+      "AnswerB" : "Integrate ideas in project",
+      "AnswerC" : "Complete your assignment",
+      "AnswerD" : "Regularity with class attendance",
+      "CategoryId" : "05",
+      "Question" : "What is important for good course outcome?",
+      "Type" : "mcq"
+    },
+    "09" : {
+      "AnswerA" : "Campus lounge to relax or study",
+      "AnswerB" : "Research labs",
+      "AnswerC" : "Sports Complex",
+      "AnswerD" : "Culture and hobbies center",
+      "CategoryId" : "05",
+      "Question" : "What campus facilities you avail generally at your free time?",
+      "Type" : "mcq"
+    },
+    "10" : {
+      "AnswerA" : "Friendly",
+      "AnswerB" : "Supportive",
+      "AnswerC" : "Uninvolved",
+      "AnswerD" : "Competive",
+      "CategoryId" : "05",
+      "Question" : "Relationships with other students in campus?",
+      "Type" : "scq"
+    },
+    "11" : {
+      "AnswerA" : "",
+      "AnswerB" : "",
+      "AnswerC" : "",
+      "AnswerD" : "",
+      "CategoryId" : "05",
+      "Question" : "Explain your personal experience in campus",
+      "Type" : "text"
+    },
+    "12" : {
+      "AnswerA" : "Alarm clock",
+      "AnswerB" : "Parent or guardian wakes me",
+      "AnswerC" : "Friends",
+      "AnswerD" : "Discipline incharge wakes me",
+      "CategoryId" : "06",
+      "Question" : "How do you usually wake up for class?",
+      "Type" : "mcq"
+    },
+    "13" : {
+      "AnswerA" : "Education is important",
+      "AnswerB" : "Classes are interesting",
+      "AnswerC" : "Attendance",
+      "AnswerD" : "My friends encourage me",
+      "CategoryId" : "06",
+      "Question" : "What are your top reasons for coming to college?",
+      "Type" : "mcq"
+    },
+    "14" : {
+      "AnswerA" : "",
+      "AnswerB" : "",
+      "AnswerC" : "",
+      "AnswerD" : "",
+      "CategoryId" : "06",
+      "Question" : "Describe any solution that you think that will help students to be more flexible and regular towards there college.",
+      "Type" : "text"
+    },
+    "15" : {
+      "AnswerA" : "Never",
+      "AnswerB" : "1-2 times a week",
+      "AnswerC" : "3-4 times a week",
+      "AnswerD" : "Everyday",
+      "CategoryId" : "06",
+      "Question" : "About how often are you late to college?",
+      "Type" : "scq"
+    },
+    "16" : {
+      "AnswerA" : "",
+      "AnswerB" : "",
+      "AnswerC" : "",
+      "AnswerD" : "",
+      "CategoryId" : "07",
+      "Question" : "Do you have any thoughts about behaviour of students in our college?",
+      "Type" : "text"
+    },
+    "17" : {
+      "AnswerA" : "Fighting",
+      "AnswerB" : "Bullying",
+      "AnswerC" : "Argue with teachers",
+      "AnswerD" : "Untidy room from your room partner",
+      "CategoryId" : "07",
+      "Question" : "What behaviour(s) upset you ?",
+      "Type" : "mcq"
+    },
+    "18" : {
+      "AnswerA" : "Avoid getting punishments",
+      "AnswerB" : "Good control of class from teacher",
+      "AnswerC" : "Rewards",
+      "AnswerD" : "Less syllabus",
+      "CategoryId" : "07",
+      "Question" : "What do you think makes students behave well in college?",
+      "Type" : "scq"
+    },
+    "19" : {
+      "AnswerA" : "Slightly more often for personal reasons",
+      "AnswerB" : "More often for work",
+      "AnswerC" : "Somewhat Balanced",
+      "AnswerD" : "",
+      "CategoryId" : "02",
+      "Question" : "How many hours you roughly use your mobile phone?",
+      "Type" : "text"
+    },
+    "20" : {
+      "AnswerA" : "Slightly more often for personal reasons",
+      "AnswerB" : "More often for work",
+      "AnswerC" : "Somewhat Balanced",
+      "AnswerD" : "",
+      "CategoryId" : "02",
+      "Question" : "What is your reaction when you see a new features in mobile phones?",
+      "Type" : "emoji"
+    },
+    "21" : {
+      "AnswerA" : "Slightly more often for personal reasons",
+      "AnswerB" : "More often for work",
+      "AnswerC" : "Somewhat Balanced",
+      "AnswerD" : "",
+      "CategoryId" : "02",
+      "Question" : "How much you love your mobile phone?",
+      "Type" : "love"
+    },
+    "22" : {
+      "AnswerA" : "TV",
+      "AnswerB" : "Youtube",
+      "AnswerC" : "Netflix",
+      "AnswerD" : "Amazon prime",
+      "CategoryId" : "03",
+      "Question" : "What platform do you mainly use to watch entertainment?",
+      "Type" : "mcq"
+    },
+    "23" : {
+      "AnswerA" : "Yes",
+      "AnswerB" : "No",
+      "AnswerC" : "Netflix",
+      "AnswerD" : "Amazon prime",
+      "CategoryId" : "03",
+      "Question" : "Have you ever watched a web series on netflix or amazon prime?",
+      "Type" : "5050"
+    },
+    "24" : {
+      "AnswerA" : "TV",
+      "AnswerB" : "Youtube",
+      "AnswerC" : "Netflix",
+      "AnswerD" : "Amazon prime",
+      "CategoryId" : "03",
+      "Question" : "As a user, how good is your experience watching web series.",
+      "Type" : "love"
+    },
+    "25" : {
+      "AnswerA" : "Rakesh Sharma",
+      "AnswerB" : "Sunita Williams",
+      "AnswerC" : "R Malhotra",
+      "AnswerD" : "Kalpana Chawala",
+      "CategoryId" : "04",
+      "Question" : "Which Indian-Amercian astronaut holds the record for the longest single space flight (195 days)",
+      "Type" : "scq"
+    },
+    "26" : {
+      "AnswerA" : "23 days",
+      "AnswerB" : "30 days",
+      "AnswerC" : "27.3 days",
+      "AnswerD" : "26 days",
+      "CategoryId" : "04",
+      "Question" : "The moon orbits the earth every ___",
+      "Type" : "scq"
+    },
+    "27" : {
+      "AnswerA" : "23 days",
+      "AnswerB" : "30 days",
+      "AnswerC" : "27.3 days",
+      "AnswerD" : "26 days",
+      "CategoryId" : "04",
+      "Question" : "What are you reactions with the outcome of chandrayaan-2 moon mission?",
+      "Type" : "emoji"
+    },
+    "28" : {
+      "AnswerA" : "1",
+      "AnswerB" : "2-3",
+      "AnswerC" : "4-5",
+      "AnswerD" : "Quite a few",
+      "CategoryId" : "02",
+      "Question" : "How many working mobile phone currently you have?",
+      "Type" : "scq"
+    }
+  },
+  "Responses" : {
+    "ARJUN MOHNOT ambennetteduin2027" : {
+      "About" : {
+        "userEmail" : "am2027@bennett.edu.in",
+        "userName" : "ARJUN MOHNOT"
+      },
+      "CategoryId-01" : {
+        "result" : "19 or Younger@@@Loved@@@Male@@@Teacher$$$Counselor$$$Friends$$$@@@hi hello@@@63@@@"
+      },
+      "CategoryId-02" : {
+        "result" : "4@@@Loved@@@41@@@2-3@@@"
+      },
+      "CategoryId-03" : {
+        "result" : "Discipline incharge wakes me$$$@@@My friends encourage me$$$@@@r@@@Everyday@@@"
+      },
+      "CategoryId-04" : {
+        "result" : "Rakesh Sharma@@@30 days@@@Loved@@@"
+      },
+      "Handle" : {
+        "handle" : "MohnotArjun"
+      }
+    },
+    "Gagan Talreja gagantalrejagmailcom" : {
+      "About" : {
+        "userEmail" : "gagantalreja@gmail.com",
+        "userName" : "Gagan Talreja"
+      },
+      "CategoryId-01" : {
+        "result" : "20-35@@@Great@@@Male@@@Teacher$$$Counselor$$$Friends$$$@@@I'm very Confident@@@58@@@"
+      }
+    },
+    "Kajal Sahu kajalsahuyahoocom" : {
+      "About" : {
+        "userEmail" : "kajal.sahu@yahoo.com",
+        "userName" : "Kajal Sahu"
+      },
+      "CategoryId-01" : {
+        "result" : "19 or Younger@@@Loved@@@Female@@@Friends$$$Parents$$$@@@Low in confidence.@@@98@@@"
+      }
+    },
+    "Kartikeya Singh kartikeyasinghgmailcom2" : {
+      "About" : {
+        "userEmail" : "kartikeyasingh.2@gmail.com",
+        "userName" : "Kartikeya Singh"
+      },
+      "CategoryId-01" : {
+        "result" : "19 or Younger@@@Shocked@@@Male@@@Teacher$$$Parents$$$@@@Working hard to get good placement.@@@28@@@"
+      }
+    },
+    "Vidhi Arora sweetvidhiaroragmailcom98" : {
+      "About" : {
+        "userEmail" : "sweetvidhiarora98@gmail.com",
+        "userName" : "Vidhi Arora"
+      },
+      "CategoryId-01" : {
+        "result" : "36-59@@@Sad@@@Female@@@Counselor$$$Friends$$$@@@Already placed.@@@18@@@"
+      }
+    }
+  }
+}
